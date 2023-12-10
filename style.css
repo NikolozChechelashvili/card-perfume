@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(255, 231, 210);
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px; 
+    background-color: rgb(254, 254, 235);
+    
+}
+.fuli{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.text{
+    padding: 32px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 337.694px;
+    height: 450px;
+    flex-shrink: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+.h6{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+    color: grey;
+}
+.h1{
+    font-style: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    color: grey;
+}
+.dolari{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #3D8168;
+
+}
+.dolari2{
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    text-decoration-line: line-through;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--Deep-Aquamarine, #3D8168);
+    margin-bottom: 32px;
+
+    
+}
+.h5{
+   
+    color: var(--Pure-White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 11.615px;
+}
